@@ -1,99 +1,113 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <title>Wikipedia</title>
 </head>
 <body>
-  <container>
-    <div class="navBar">
-      <a href="navBut">Log in</a>
-    </div>
-    <div class="navBar">
-      <a href="navBut">Create account</a>
-    </div>
-    <div class="navBar">
-      <a href="navBut">Contributions</a>
-    </div>
-    <div class="navBar">
-      <a href="navBut">Talk</a>
-    </div>
-    <div class="navBar">
-      <p>Not logged in</p>
-    </div>
-    <div id="sidebar">
-      <img src="img/globe.jpeg" alt="wiki globe">
-      <h3>WikipediA</h3>
-      <h5>The Free Encyclopedia</h5>
-
-      <ul id="sidebarUl">
-
-        <li><p><a href="navBut">Main page</a></p></li>
-        <li><p><a href="navBut">Contents</a></p></li>
-        <li><p><a href="navBut">Featured content</a></p></li>
-        <li><p><a href="navBut">Current events</a></p></li>
-        <li><p><a href="navBut">Random article</a></p></li>
-        <li><p><a href="navBut">Donate to Wikipedia</a></p></li>
-        <li><p><a href="navBut">Wikipedia store</a></p></li>
-        <hr>
-
-        <p>Interaction</p>
-        <ul class="sidebarUl">
-          <li><p><a href="navBut">Help</a></p></li>
-          <li><p><a href="navBut">About Wikipedia</a></p></li>
-          <li><p><a href="navBut">Community portal</a></p></li>
-          <li><p><a href="navBut">Recent changes</a></p></li>
-          <li><p><a href="navBut">Current page</a></p></li>
-        </ul>
-        <hr>
-        <p>Tools</p>
-        <ul class="sidebarUl">
-          <li><p><a href="navBut">What links here</a></p></li>
-          <li><p><a href="navBut">Related changes</a></p></li>
-          <li><p><a href="navBut">Upload file</a></p></li>
-          <li><p><a href="navBut">Special pages</a></p></li>
-          <li><p><a href="navBut">Permanent link</a></p></li>
-          <li><p><a href="navBut">Page information</a></p></li>
-          <li><p><a href="navBut">Wikidata item</a></p></li>
-        </ul>
-        <hr>
-        <p>Print/export</p>
-        <ul class="sidebarUl">
-          <li><p><a href="navBut">Create a book</a></p></li>
-          <li><p><a href="navBut">Download as PDF</a></p></li>
-          <li><p><a href="navBut">Printable version</a></p></li>
-        </ul>
-        <hr>
-        <p>Languages</p>
-        <ul class="sidebarUl">
-          <li><p><a href="navBut">Language</a></p></li>
-          <li><p><a href="navBut">Language</a></p></li>
-          <li><p><a href="navBut">Language</a></p></li>
-          <li><p><a href="navBut">Language</a></p></li>
-          <li><p><a href="navBut">Language</a></p></li>
-          <li><p><a href="navBut">Language</a></p></li>
-          <li><p><a href="navBut">Language</a></p></li>
-          <li><p><a href="navBut">Language</a></p></li>
-          <li><p><a href="navBut">Language</a></p></li>
-          <li><p><a href="navBut">Language</a></p></li>
-          <li><p><a href="navBut">Language</a></p></li>
-          <li><p><a href="navBut">Language</a></p></li>
-          <li><p><a href="navBut">Language</a></p></li>
-          <li><p><a href="navBut">Language</a></p></li>
-          <li><p><a href="navBut">Language</a></p></li>
-          <li><p><a href="navBut">Language</a></p></li>
-          <li><p><a href="navBut">Language</a></p></li>
-          <li><p><a href="navBut">Language</a></p></li>
-          <li><p><a href="navBut">Language</a></p></li>
-          <li><p><a href="navBut">Language</a></p></li>
-          <li><p><a href="navBut">Language</a></p></li>
-        </ul>
-
-
+  <div class="container">
+    <header class="page-header">
+      <ul class="nav nav-pills pull-right">
+        <li><a href="#">Not logged in</a></li>
+        <li><a href="#">Talk</a></li>
+        <li><a href="#">Contributions</a></li>
+        <li><a href="#">Create account</a></li>
+        <li><a href="#">Log in</a></li>
       </ul>
+    </header>
+    <div class="row">
+      <div class="col-sm-1">
+        <img src="img/globe.jpeg" class="img-responsive" alt="wiki globe">
+        <h3 class="lead">WikipediA</h3>
+        <h5>The Free Encyclopedia</h5>
+        <ul>
+          <li><a class="btn btn-lg"href="#">Main page</a></li>
+          <li><a class="btn" href="#">Contents</a></li>
+          <li><a class="btn" href="#">Featured content</a></li>
+          <li><a class="btn" href="#">Current events</a></li>
+          <li><a class="btn" href="#">Random article</a></li>
+          <li><a class="btn" href="#">Donate to Wikipedia</a></li>
+          <li><a class="btn" href="#">Wikipedia store</a></li>
+          <hr>
+          <p>Interaction</p>
+          <li><ul class="sidebarUl"></li>
+            <li><a class="btn" href="#">Help</a></li>
+            <li><a class="btn" href="#">About Wikipedia</a></li>
+            <li><a class="btn" href="#">Community portal</a></li>
+            <li><a class="btn" href="#">Recent changes</a></li>
+            <li><a class="btn" href="#">Current page</a></li>
+          </ul>
+          <hr>
+          <p>Tools</p>
+          <li><ul class="sidebarUl"></li>
+            <li><a class="btn" href="#">What links here</a></li>
+            <li><a class="btn" href="#">Related changes</a></li>
+            <li><a class="btn" href="#">Upload file</a></li>
+            <li><a class="btn" href="#">Special pages</a></li>
+            <li><a class="btn" href="#">Permanent link</a></li>
+            <li><a class="btn" href="#">Page information</a></li>
+            <li><a class="btn" href="#">Wikidata item</a></li>
+          </ul>
+          <hr>
+          <p>Print/export</p>
+          <li><ul class="sidebarUl"></li>
+            <li><a class="btn" href="#">Create a book</a></li>
+            <li><a class="btn" href="#">Download as PDF</a></li>
+            <li><a class="btn" href="#">Printable version</a></li>
+          </ul>
+          <hr>
+          <p>Languages</p>
+          <li><ul class="sidebarUl"></li>
+            <li><a class="btn" href="#">Language</a></li>
+            <li><a class="btn" href="#">Language</a></li>
+            <li><a class="btn" href="#">Language</a></li>
+            <li><a class="btn" href="#">Language</a></li>
+            <li><a class="btn" href="#">Language</a></li>
+            <li><a class="btn" href="#">Language</a></li>
+            <li><a class="btn" href="#">Language</a></li>
+            <li><a class="btn" href="#">Language</a></li>
+            <li><a class="btn" href="#">Language</a></li>
+            <li><a class="btn" href="#">Language</a></li>
+            <li><a class="btn" href="#">Language</a></li>
+            <li><a class="btn" href="#">Language</a></li>
+            <li><a class="btn" href="#">Language</a></li>
+            <li><a class="btn" href="#">Language</a></li>
+            <li><a class="btn" href="#">Language</a></li>
+            <li><a class="btn" href="#">Language</a></li>
+            <li><a class="btn" href="#">Language</a></li>
+            <li><a class="btn" href="#">Language</a></li>
+            <li><a class="btn" href="#">Language</a></li>
+            <li><a class="btn" href="#">Language</a></li>
+          </ul>
+        </ul>
+      </div>
+      <div class="col-sm-10 col-sm-offset-1">
+        <div id="welcome">
+          <h3>Welcome to <a href="#">Wikipedia</a></h3>
+          <div class="row">
+            <div class="col-sm-6" id="greenCol">
+              <h4 class="green">From today's featured article</h4>
+              <p>Aenean vulputate nisl massa, ac laoreet diam ultrices quis. Nulla eget nunc sit amet tortor laoreet faucibus nec eu eros. Curabitur vel felis in orci faucibus efficitur. Aenean augue odio, consequat faucibus ex id, iaculis dapibus mi. Aliquam et orci convallis, aliquam tellus vitae, scelerisque nisi. Fusce eleifend mi a erat tempor lacinia. Ut felis nisi, finibus quis congue non, cursus non turpis.</p>
+              <h4 class="green">From today's featured article</h4>
+              <p>Aenean vulputate nisl massa, ac laoreet diam ultrices quis. Nulla eget nunc sit amet tortor laoreet faucibus nec eu eros. Curabitur vel felis in orci faucibus efficitur. Aenean augue odio, consequat faucibus ex id, iaculis dapibus mi. Aliquam et orci convallis, aliquam tellus vitae, scelerisque nisi. Fusce eleifend mi a erat tempor lacinia. Ut felis nisi, finibus quis congue non, cursus non turpis.</p>
+            </div>
+            <div class="col-sm-6" id="blueCol">
+              <h4 class="blue">From today's featured article</h4>
+              <p>Aenean vulputate nisl massa, ac laoreet diam ultrices quis. Nulla eget nunc sit amet tortor laoreet faucibus nec eu eros. Curabitur vel felis in orci faucibus efficitur. Aenean augue odio, consequat faucibus ex id, iaculis dapibus mi. Aliquam et orci convallis, aliquam tellus vitae, scelerisque nisi. Fusce eleifend mi a erat tempor lacinia. Ut felis nisi, finibus quis congue non, cursus non turpis.</p>
+              <h4 class="blue">From today's featured article</h4>
+              <p>Aenean vulputate nisl massa, ac laoreet diam ultrices quis. Nulla eget nunc sit amet tortor laoreet faucibus nec eu eros. Curabitur vel felis in orci faucibus efficitur. Aenean augue odio, consequat faucibus ex id, iaculis dapibus mi. Aliquam et orci convallis, aliquam tellus vitae, scelerisque nisi. Fusce eleifend mi a erat tempor lacinia. Ut felis nisi, finibus quis congue non, cursus non turpis.</p>
+            </div>
+          </div>      
+        </div>
+        <div class="col-sm-12" id="pink">
+          <h4 class="pinkCol">From today's featured article</h4>
+          <p>Aenean vulputate nisl massa, ac laoreet diam ultrices quis. Nulla eget nunc sit amet tortor laoreet faucibus nec eu eros. Curabitur vel felis in orci faucibus efficitur. Aenean augue odio, consequat faucibus ex id, iaculis dapibus mi. Aliquam et orci convallis, aliquam tellus vitae, scelerisque nisi. Fusce eleifend mi a erat tempor lacinia. Ut felis nisi, finibus quis congue non, cursus non turpis.</p>
+        </div>
+      </div>
     </div>
-
-  </container>
+  </div>
+</div>
 </body>
 </html>
