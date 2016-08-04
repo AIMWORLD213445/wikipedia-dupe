@@ -1,0 +1,50 @@
+.navBar{
+  float:right;
+  margin-right: 10px;
+}
+#sidebar h3{
+  font-variant: small-caps;
+  font-family: "linux libertine";
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: auto;
+  text-align: center;
+
+}
+#sidebar h5{
+  font-family: "linux libertine";
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 12px;
+}
+#sidebar h6{
+  font-weight:light;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+#sidebar{
+  float: left;
+  width: 11%;
+  margin-left: 10px;
+  border: solid 1px;
+}
+#sidebarUl{
+  list-style: none;
+  padding-left: 2px;
+}
+.sidebarUl{
+  list-style: none;
+  padding-left: 10px;
+}
+#sidebar img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.sidebarUl li{
+  line-height: 1em;
+}
+#sidebarUl li{
+  line-height: 1em;
+}
